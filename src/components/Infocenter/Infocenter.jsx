@@ -1,4 +1,5 @@
 import './Infocenter.css'
+import MyPosts from './MyPosts/MyPosts'
 
 function Infocenter() {
     return (
@@ -14,6 +15,7 @@ function Infocenter() {
                 <p className="info__center-top-text">website: none</p>
             </div>
         </div>
+        <MyPosts />
     </div>
     )
 }

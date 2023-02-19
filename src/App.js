@@ -1,8 +1,7 @@
 import './App.css';
-import Header from './components/Header';
-import Infobottom from './components/Infobottom';
-import Infocenter from './components/Infocenter';
-import Infoleft from './components/Infoleft';
+import Header from './components/Header/Header';
+import Infocenter from './components/Infocenter/Infocenter';
+import Infoleft from './components/Infoleft/Infoleft';
 
 function App() {
 return (
@@ -11,7 +10,6 @@ return (
         <div className="info">
         <Infoleft />
         <Infocenter />
-        <Infobottom />
     </div>
     </main>
 );
