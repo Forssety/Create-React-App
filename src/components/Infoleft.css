@@ -1,0 +1,19 @@
+.info__left{
+    background-color: red;
+    max-width: 150px;
+    height: 548px;
+}
+
+.info__left-item{
+    margin-left: 35px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.info__left-list{
+    background-color: rgb(156, 66, 66);
+}
+
+.info__left-list:hover{
+    background-color: rgb(145, 46, 66);
+}

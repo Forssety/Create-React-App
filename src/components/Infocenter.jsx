@@ -1,3 +1,5 @@
+import './Infocenter.css'
+
 function Infocenter() {
     return (
         <div className="info__center">

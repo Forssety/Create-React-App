@@ -1,3 +1,5 @@
+import './Infoleft.css'
+
 function Infoleft() {
     return (
         <div className="info__left">
